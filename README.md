@@ -19,16 +19,33 @@ E-commerce businesses need to understand where revenue is coming from, which cus
 - Pandas: Data preparation and CSV export
 
 ## Dataset
-Dataset is not included due to size limitations.
-You can download it from Kaggle:
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-The project uses the Brazilian E-Commerce Public Dataset by Olist. Multiple datasets were combined to create a final analysis-ready dataset.
 
-Main tables used:
-- Orders
-- Customers
-- Order Payments
-- Order Items
+This project uses the **Brazilian E-Commerce Public Dataset by Olist**, which contains real-world transactional data from an e-commerce platform.
+
+📌 Dataset Source:  
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+Due to file size limitations, the dataset is not included in this repository.
+
+### Data Description
+The dataset consists of multiple relational tables that were merged to create a final analysis-ready dataset.
+
+Key tables used:
+- **Orders** – order-level information (status, timestamps)
+- **Customers** – customer demographics and location
+- **Order Payments** – payment values and methods
+- **Order Items** – product-level purchase details
+
+### Data Processing
+- Combined multiple datasets using `order_id` and `customer_id`
+- Cleaned missing and inconsistent values
+- Created new features such as:
+  - `year`
+  - `month`
+- Generated a final dataset for analysis and visualization
+
+Final dataset used:
+- `final_ecommerce_data.csv`
 
 ## Project Workflow
 
