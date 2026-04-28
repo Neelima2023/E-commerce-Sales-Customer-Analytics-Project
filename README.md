@@ -44,8 +44,7 @@ Key tables used:
   - `month`
 - Generated a final dataset for analysis and visualization
 
-Final dataset used:
-- `final_ecommerce_data.csv`
+Final cleaned dataset was generated locally and used for Power BI dashboard creation.
 
 ## Project Workflow
 
@@ -94,4 +93,7 @@ E-commerce-Sales-Customer-Analytics-Project/
 ├── dashboard_screenshot.png
 ├── data_cleaning_analysis.ipynb
 ├── queries.ipynb
-└── README.md 
+└── README.md
+
+## Resume Summary
+Built an end-to-end e-commerce analytics project by cleaning and merging multiple datasets using Python, performing SQL-based analysis, and creating an interactive Power BI dashboard to track revenue, orders, customers, regional performance, and monthly trends.
