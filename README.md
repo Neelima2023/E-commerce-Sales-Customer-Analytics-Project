@@ -67,7 +67,7 @@ Built an interactive dashboard with:
 
 
 ## Dashboard Preview
-![Dashboard](dashboard/dashboard_screenshot.png)
+![Dashboard](dashboard_screenshot.png)
 
 ## Project Structure
 ```text
