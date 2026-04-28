@@ -71,21 +71,10 @@ Built an interactive dashboard with:
 
 ## Project Structure
 ```text
-Ecommerce-Analytics/
+E-commerce-Sales-Customer-Analytics-Project/
 │
-├── data/
-│   └── final_ecommerce_data.csv
-│
-├── dashboard/
-│   └── Ecommerce_Dashboard.pbix
-│   └── dashboard_screenshot.png
-│
-│
-├── python/
-│   └── data_cleaning_analysis.ipynb
-│
-├── sql/
-│   └── queries.ipynb
-│
-└── README.md
-
+├── Ecommerce_Dashboard.pbix
+├── dashboard_screenshot.png
+├── data_cleaning_analysis.ipynb
+├── queries.ipynb
+└── README.md 
